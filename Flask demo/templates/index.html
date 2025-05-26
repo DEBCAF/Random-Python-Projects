@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    
+    <body>
+        <div>
+            <a href="/">Home</a><br>
+            <a href="/login">Log in</a><br>
+            <a href="/register">Register</a>
+        </div>
+        
+        <h1>Home page.</h1>
+        
+        <p class="error_msg">This text should be red</p>
+                
+        <p class="happy_msg">This text should be blue - see style.css</p>
+        
+        <p>
+            Data received from Python backend:
+            <ul>
+                <li>Name: {{name}}</li>
+                <li>Occupation: {{occupation}}</li>
+                <li>Date of birth: {{dob}}</li>
+            </ul>
+        </p>
+        
+        <p class="error_msg">This text should be red - see style.css in the static folder</p>
+    </body>
+    
+</html>
