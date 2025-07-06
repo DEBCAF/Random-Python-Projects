@@ -1,4 +1,4 @@
-# Andrew Wong British Informatics Olympiad 2025 Question 1(a)
+# DEBCAF's British Informatics Olympiad 2025 Question 1(a)
 # Subroutines
 def two(num):
     num = int(num)

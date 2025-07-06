@@ -1,4 +1,3 @@
-# Andrew Wong - School Elections
 # This program record and count the number of votes for candidates in school council
 # Variable initialisation
 pupilNames = []
